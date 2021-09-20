@@ -1,14 +1,20 @@
 import React, {useEffect,useState} from 'react';
-import { Input, Space, Card,  Row, Col,Layout } from 'antd';
+import { Input, Space, Card,  Row, Col,Layout, Spin } from 'antd';
 import Highlighter from 'react-highlight-words';
 import { userService } from '../services';
 
 const UserPage = ()=>{
 const [data,setData]=useState([]);
 const [searchValue,setSearchValue]=useState('');
+const [showLoader, setShowLoader]=useState(false);
 
 const getData=(pattern)=>{
-    return userService.get(`a/ra/songs.json?pattern=${pattern}`).then((response)=>setData(response.data));
+    setShowLoader(true);
+    userService.get(`a/ra/songs.json?pattern=${pattern}`)
+    .then((response)=>{
+        setData(response.data);
+        setShowLoader(false);
+    });
 }
 useEffect(()=>{
     getData('Marley');
@@ -36,6 +42,10 @@ const onSearch = value => {
  <Row>
 <Col span={24}>
     <Space direction="vertical" size='large'>
+        {
+            showLoader &&  <Spin size='large' tip="Loading..."/>
+        }
+       
 
 {data && data.map((x)=>
 <Card
