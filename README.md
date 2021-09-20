@@ -1,8 +1,27 @@
-# Getting Started with Create React App
+# BONJOUR !
+My name is Abhishek Singh, 27-years-old, multi-specialist Front End Engineer with 3+ years of experience in Health Care, Construction, E-commerce & Logistics, and information & Technology domain, based in Gurgaon. I describe myself as a passionate learner, who looks forward to learning from everyone around me and is always open to learning new tech stacks.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+You can get more details on [MyWebsite](https://aviibuzz.github.io/aviibuzz/) 
+
+# Getting Started with Song-Search-POC
+
+Running version of the project is available on  [song-search-poc](https://song-search-dummy-poc.herokuapp.com/).
+
+## Tech Stakes used in this project
+* React
+* Css3
+* HTML
+* ant-design 4.17.0-alpha.0
+* javascript 
+* Axios
+* react-highlighter
+* mediquery for responsive at 468px and 768px 
 
 ## Available Scripts
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
@@ -39,32 +58,20 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+Click ⭐if you like the project. Pull Request are highly appreciated. Follow me @aviibuzz for technical updates.
+ ***
+ 
+I focused on the design and implementation of enterprise scaled business solutions. I have hands-on experience of designing, developing and troubleshooting large scale driven, multi-threaded applications like ERP, Virtual meeting System ,Automation Suite, PWA.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How can i help you
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Website & Web Development
+* Responsive Web Design
+* PWA
+* Domain & Hosting Solution
+* ERP &  Software development.
+* CMS or WordPress setup.
+* Maintaince & Refactoring
 
-### Code Splitting
+### Interested in working with me? Get in [touch](https://aviibuzz.github.io/aviibuzz/#contact) and I’d be happy to talk to you.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
