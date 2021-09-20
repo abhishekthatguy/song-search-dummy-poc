@@ -7,7 +7,16 @@ export const userService={
 
 async function get(apiEndpoint) {
   try {
-    const response = await axios.get(config.baseUrl+apiEndpoint,getOptions());
+    const response = await axios({
+        method: 'get',
+        url: config.baseUrl+apiEndpoint,
+        
+        headers: {
+            'Content-Type': 'application/json',
+            // 'Access-Control-Allow-Origin': true
+            
+             }
+        })
     return response;
     
     
@@ -24,6 +33,7 @@ async function get(apiEndpoint) {
 //   }
 // }
 
-function getOptions(){
-    let options = {};
-}
+// function getOptions(){
+//     let options = {};
+//     return options;
+// }
